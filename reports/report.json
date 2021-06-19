@@ -1,0 +1,105 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-to-cart;add-product-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Add product to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user launches Clucb Kitchen  Application",
+            "match": {
+              "location": "..\\steps\\steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks to the Menu and enters \"Seidengasse 44, 1070 Wien, Austria\"",
+            "match": {
+              "location": "..\\steps\\steps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should be able to see restraunts page as per \"Seidengasse 44, 1070 Wien, Austria\"",
+            "match": {
+              "location": "..\\steps\\steps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1879000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user adds  \"mamacita dish\" to cart",
+            "match": {
+              "location": "..\\steps\\steps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6834000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2161000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-to-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "add to cart",
+    "tags": [],
+    "uri": "..\\..\\feature\\login.feature"
+  }
+]
